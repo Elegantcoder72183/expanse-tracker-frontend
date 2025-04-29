@@ -28,7 +28,7 @@ function App() {
 
   return (
     <Router>
-      <div className="min-h-screen bg-gray-100">
+      <div className="min-h-screen bg-blue-900">
         <Routes>
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<Login setIsAuthenticated={setIsAuthenticated} />} />
