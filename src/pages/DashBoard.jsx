@@ -172,7 +172,7 @@ function Dashboard() {
         </button>
       </form>
 
-      <div className="bg-white px-6 py-10 rounded shadow-md">
+      <div className="bg-white px-6 pt-6 pb-16 rounded shadow-md">
         <h3 className="text-2xl font-bold mb-4 text-blue-900 ">Your Expenses</h3>
         {expenses.length === 0 ? (
           <p>No expenses found.</p>

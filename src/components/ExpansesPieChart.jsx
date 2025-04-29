@@ -32,7 +32,7 @@ const ExpansesPieChart = ({ expenses }) => {
     value: total,
   }));
   return (
-    <div className="w-full h-96 p-7">
+    <div className="w-full h-96 p-2">
       <h3 className="text-3xl font-bold mb-4 text-center text-blue-900">Expense Distribution</h3>
       {chartData.length === 0 ? (
         <p>No expenses to show.</p>
